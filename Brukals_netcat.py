@@ -97,7 +97,7 @@ class NetCat:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Brukals Netcat",
-        formatter_class=argparse.RawDescriptionHelpFormatter4,
+        formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog= textwrap.dedent('''
          Example:
           laterrrrr    
